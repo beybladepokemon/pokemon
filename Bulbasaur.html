@@ -1,34 +1,63 @@
 <html>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#"><img title="Bulbasaur" src="images/Pokemon logo.png" height="80px"
+            width="200px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Extras</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">contact us</a>
+                    <a class="dropdown-item" href="#">about us</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="div-pokemon" class="jumbotron text-center">
+    <h1 style="color:violet">Bulbasaur</h1>
+</div>
 
 <head>
     <title>Bulbasaur</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body style="background-color:#66ffff; font-family:arial; color:black; ">
-    <h1 style="margin-left:400px;"><em>Bulbasaur</em></h1>
-    <img style="margin-left:400px; " title="Solgaleo" src="images/Bulbasaur.png" height="300px" width="300px">
-    <div style="margin-left:400px;">
-        <ul style="width:200px;text-align:center;">
-            <li>Seed Pokemon</li>
-            <li>Naps in sunshine</li>
-            <li>Green or pink bulb on back</li>
-            <li>Lives in forests(mainly)</li>
-            <li>0.7 metres tall</li>
-            <li>6.9 kg</li>
-            <li>Pronouced: BUL-ba-sore</li>
-            <li>Bulb on back that catchs sunlight to grow</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    <br><br><br>
-    <div style="margin-left:400px;"></div>
-    <ol style="width:300px;">
-
-    </ol>
-    </div>
+<body style="background-color:#66ffff; font-family:arial; color:black;">
+    <table class="character-desc-table">
+        <tr>
+            <td>
+                <img title="Bulbasaur" src="images/Bulbasaur.png" height="300px" ; width="300px">
+            </td>
+            <td class="desc-list">
+                <ul>
+                    <li>Seed Pokemon</li>
+                    <li>Naps in sunshine</li>
+                    <li>Green or pink bulb on back</li>
+                    <li>Lives in forests(mainly)</li>
+                    <li>0.7 metres tall</li>
+                    <li>6.9 kg</li>
+                    <li>Pronouced: BUL-ba-sore</li>
+                    <li>Bulb on back that catchs sunlight to grow</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
 </body>
 

@@ -1,35 +1,68 @@
 <html>
 
 <head>
+
     <title>Ash</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#"><img title="Pokemon" src="images/Pokemon logo.png" ; height="80px"
+            width="200px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<body style="background-color:#66ffff; font-family:arial; color:black; "></body>
-<h1><em>Ash</em></h1>
-<img style="margin-left:400px; " title="Ash" src="images/Ash.png" height="400px" width="250px">
-<div style="margin-left:400px;">
-    <ul style="width:200px;text-align:center;">
-        <li>Ten years old</li>
-        <li>Pikachus trainer</li>
-        <li>Hometown is Pallet town</li>
-        <li>Brown eyes</li>
-        <li>Black hair</li>
-        <li>Alola League Champion</li>
-        <li>Wants to be the worlds best trainer</li>
-        <li>Rival of Gary</li>
-        <li>Friends with Misty and Brock</li>
-        <li>Catch Phrase is, 'Pokemon, I choose you!'</li>
-        <li>Unamed father</li>
-        <li>Mothers name is Delia</li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Extras</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">contact us</a>
+                    <a class="dropdown-item" href="#">about us</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="div-pokemon" class="jumbotron text-center">
+    <h1 style="color: crimson;">Ash</h1>
 </div>
-<br><br><br>
-<div style="margin-left:400px;"></div>
-<ol style="width:300px;">
 
-</ol>
-</div>
-
+<body style="background-color:#66ffff; font-family: arial;color:black">
+    <table class="character-desc-table">
+        <tr>
+            <td>
+                <img title="Ash" src="images/Ash.png" height="400px" ; width="200px">
+            </td>
+            <td class="desc-list">
+                <ul>
+                    <li>Ten years old</li>
+                    <li>Pikachus trainer</li>
+                    <li>Hometown is Pallet town</li>
+                    <li>Brown eyes</li>
+                    <li>Black hair</li>
+                    <li>Alola League Champion</li>
+                    <li>Wants to be the worlds best trainer</li>
+                    <li>Rival of Gary</li>
+                    <li>Friends with Misty and Brock</li>
+                    <li>Catch Phrase is, 'Pokemon, I choose you!'</li>
+                    <li>Unamed father</li>
+                    <li>Mothers name is Delia</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
