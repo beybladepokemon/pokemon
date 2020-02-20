@@ -1,14 +1,52 @@
-h1#h1-ash { 
+h1#h1 { 
     margin-left: 400px; 
     color:gold;   
-    font-size:65
-}
-h1#h1-charmander {
-    margin-left:400px; 
-    color:gold; 
-    font-size:65px;
+    font-size:65px
 }
 #div-pokemon {
-    background-color: blueviolet;
+    background-color: chartreuse;
 }
 
+.card {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: blueviolet;
+    width: 100%;
+}   
+
+.card img {
+    height:150px;
+    width:150px;
+}
+
+.row {
+margin-bottom: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+ .character-page { 
+  background-color: mediumspringgreen;
+  margin-top: 2em;
+ }
+
+ .character-desc-table {
+     width: 100%;
+     text-align: center;
+     margin-top: 80px;
+     border: 20px chartreuse solid;
+ }
+ .desc-list {
+     width: 50%;
+     text-align: left;
+ }
+
+ .jumbotron {
+margin: 7rem 2rem;
+ }
